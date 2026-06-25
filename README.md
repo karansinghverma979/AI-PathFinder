@@ -1,41 +1,3 @@
-<div align="center">
-
-# KARAN SINGH VERMA
-
-### *IRRATIONAL FRENZY CONTROLLED BY REASON AND SELF REFLECTION.*
-
-
-## ⚙️ Tech Stack
-
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,bash,python,c,cpp,git,github,docker,vscode,raspberrypi&theme=dark" alt="Tech Stack Icons" />
-  </a>
-</div>
-
-
----
-
-
-**Development & Frameworks**
-![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![LLM APIs](https://img.shields.io/badge/AI_Integration-000000?style=for-the-badge&logo=openai&logoColor=white)
-
-**Systems & Automation**
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-
-
-
-</div>
-
-
----
-
 # <p align="center">🚀 AI-PathFinder</p>
 
 <p align="center">
@@ -72,18 +34,18 @@
 
 ## 📷 Interactive Showcase (Tab Breakdown)
 
-Here is a visual walk-through of each session within the application. Drag-and-drop your screenshots in the placeholder links below to customize this documentation.
-
 
 ### 🎯 1. Career Tab (Job Matcher)
 * **Description**: Enter your core technical skills (comma-separated). The engine runs a search matching your profile to current corporate database vacancies, calculating match metrics based on title relevance, exact matches, and partial skill matches.
 * **API Endpoints**: `POST /match_jobs`
 * **UI Showcase Placeholder**:
 
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033329" src="https://github.com/user-attachments/assets/b607e07a-92ba-4513-8ff5-7395f074630c" />
+
 
 <img width="2879" height="1799" alt="Screenshot 2026-06-26 033352" src="https://github.com/user-attachments/assets/4c542bb9-5fb7-4a16-88ff-21c817a641ad" />
 
-<img width="2879" height="1799" alt="Screenshot 2026-06-26 033329" src="https://github.com/user-attachments/assets/b607e07a-92ba-4513-8ff5-7395f074630c" />
+
 
 <img width="2879" height="1796" alt="Screenshot 2026-06-26 033356" src="https://github.com/user-attachments/assets/cbc22221-12ca-4d60-8de8-878c9103fd60" />
 
@@ -178,7 +140,6 @@ Here is a visual walk-through of each session within the application. Drag-and-d
 
 <img width="2879" height="1799" alt="Screenshot 2026-06-26 032913" src="https://github.com/user-attachments/assets/8a387bfb-406a-48fa-a229-e1b0acfd8493" />
 
-![Uploading Screenshot 2026-06-26 032921.png…]()
 
 <img width="2879" height="1798" alt="Screenshot 2026-06-26 032941" src="https://github.com/user-attachments/assets/2f5e850b-e72b-4c13-b40f-38ad684835bc" />
 
@@ -272,3 +233,43 @@ iscc installer.iss
 * **Akarshan Gupta** - *UI/UX Designer*
 
 *AI-PathFinder © 2025*
+
+---
+
+<div align="center">
+
+# KARAN SINGH VERMA
+
+### *IRRATIONAL FRENZY CONTROLLED BY REASON AND SELF REFLECTION.*
+
+
+## ⚙️ Tech Stack
+
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,bash,python,c,cpp,git,github,docker,vscode,raspberrypi&theme=dark" alt="Tech Stack Icons" />
+  </a>
+</div>
+
+
+---
+
+
+**Development & Frameworks**
+![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![LLM APIs](https://img.shields.io/badge/AI_Integration-000000?style=for-the-badge&logo=openai&logoColor=white)
+
+**Systems & Automation**
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+
+
+
+</div>
+
+
+---
