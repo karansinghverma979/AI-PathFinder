@@ -1,0 +1,25 @@
+{
+  "name": "ai-pathfinder",
+  "version": "1.0.0",
+  "description": "AI PathFinder is a web application that helps users plan their career path, find learning resources, and search for jobs. It uses AI to provide personalized recommendations based on the user's skills and experience.",
+  "main": "index.js",
+  "scripts": {
+    "setup:backend": "python -m venv backend/venv",
+    "install:backend": "backend\\venv\\Scripts\\python.exe -m pip install -r backend/requirements.txt",
+    "install:frontend": "cd frontend && npm install",
+    "install": "npm run setup:backend && npm run install:frontend && npm run install:backend",
+    "start:backend": "cd backend && .\\venv\\Scripts\\python.exe -m uvicorn main:app --reload",
+    "start:frontend": "cd frontend && npm run dev",
+    "start": "start powershell -Command \"npm run start:backend\" && start powershell -Command \"npm run start:frontend\" && powershell -Command \"(New-Object -ComObject Shell.Application).MinimizeAll()\" && wait-on http://localhost:5173 && start http://localhost:5173",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "devDependencies": {
+    "wait-on": "^9.0.3"
+  }
+}

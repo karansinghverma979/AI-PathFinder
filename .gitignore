@@ -1,0 +1,51 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Python virtual envs
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+
+# Local databases
+backend/candidates.db
+candidates.db
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Build directories
+frontend/dist/
+backend/static/
+dist/
+build/
+*.spec
+
+# IDE / Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Config and keys
+.env
+frontend/.env
+config.json
+
+# Logs and Debug
+*.log
+debug_log.txt
+
