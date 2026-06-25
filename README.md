@@ -22,6 +22,9 @@
 
 ---
 
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 032746" src="https://github.com/user-attachments/assets/9fb8ad18-df3c-4391-b069-a56b530ec56e" />
+
+
 ## 📁 Repository Details
 * **Repository Name**: `AI-PathFinder`
 * **Repository URL**: [https://github.com/karansinghverma979/AI-PathFinder](https://github.com/karansinghverma979/AI-PathFinder)
@@ -30,52 +33,93 @@
 
 ---
 
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033329" src="https://github.com/user-attachments/assets/bde9702a-15f4-44b3-8d64-1c28013e9efa" />
+
+
 ## 📷 Interactive Showcase (Tab Breakdown)
 
 Here is a visual walk-through of each session within the application. Drag-and-drop your screenshots in the placeholder links below to customize this documentation.
+
+<img width="2879" height="1796" alt="Screenshot 2026-06-26 033356" src="https://github.com/user-attachments/assets/5872a18b-8da5-4153-8b71-32b52b854b73" />
+
 
 ### 🎯 1. Career Tab (Job Matcher)
 * **Description**: Enter your core technical skills (comma-separated). The engine runs a search matching your profile to current corporate database vacancies, calculating match metrics based on title relevance, exact matches, and partial skill matches.
 * **API Endpoints**: `POST /match_jobs`
 * **UI Showcase Placeholder**:
-  ![Career Dashboard](assets/screenshots/tab_career.png)
-  *(Replace with screenshot of career skills lookup and matching scores)*
+
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033404" src="https://github.com/user-attachments/assets/df256fdb-c376-46b7-85a6-1fcb6ecd84c4" />
+
+
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033352" src="https://github.com/user-attachments/assets/4c39f83f-e669-4fce-80b9-7cfa7a2a2c00" />
 
 ---
+
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033156" src="https://github.com/user-attachments/assets/d669b8f8-6bd8-4aac-99e8-444888c1ae6a" />
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033146" src="https://github.com/user-attachments/assets/c4c2d2cf-29af-438a-8253-3beaba9d3cd9" />
+
 
 ### 📚 2. Learning Tab (AI Learning Forge)
 * **Description**: Type in any career role (e.g. Frontend Developer, Machine Learning Engineer) to forge a custom structured learning path. Provides visual steps graded by difficulty (Easy, Medium, Hard) and connects to online video guides, tutorials, and Github projects.
 * **API Endpoints**: `POST /learning`
 * **UI Showcase Placeholder**:
-  ![AI Learning Path](assets/screenshots/tab_learning.png)
-  *(Replace with screenshot of step-by-step visual learning roadmap)*
 
+<img width="2879" height="1798" alt="Screenshot 2026-06-26 033208" src="https://github.com/user-attachments/assets/8920ec85-2942-470d-be0d-44f5e2726f8b" />
+
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033217" src="https://github.com/user-attachments/assets/c92662a7-3ed7-4a34-ab0e-fd0a906985fb" />
+
+
+  
 ---
+
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033113" src="https://github.com/user-attachments/assets/7e05cc4d-512d-45cd-902c-37199b076acc" />
+
 
 ### 💼 3. Hiring Tab (Recruitment Hub)
 * **Description**: Intended for companies. Enter a job description (e.g., "Need a Python developer skilled in Django and APIs"), and the app runs a scan of the local candidate base, ranking applicants by skill alignment and providing one-click composition windows to contact candidates.
 * **API Endpoints**: `POST /hiring`
 * **UI Showcase Placeholder**:
-  ![Hiring Dashboard](assets/screenshots/tab_hiring.png)
-  *(Replace with screenshot of companies scanning and selecting top candidates)*
+
+ <img width="2879" height="1799" alt="Screenshot 2026-06-26 033131" src="https://github.com/user-attachments/assets/981e7183-f76b-4ddc-8a70-e4405428818e" />
+ <img width="2879" height="1799" alt="Screenshot 2026-06-26 033137" src="https://github.com/user-attachments/assets/c48090dc-b3e3-457e-a485-4c1bced0c573" />
+
 
 ---
+
+<img width="2879" height="1770" alt="Screenshot 2026-06-26 033038" src="https://github.com/user-attachments/assets/2abfaeb7-2d19-4d82-9eae-baffaa8ca6f0" />
+<img width="2879" height="1798" alt="Screenshot 2026-06-26 033028" src="https://github.com/user-attachments/assets/704a9a7e-0fdb-4d07-a3ad-11544a44044c" />
+
 
 ### 👥 4. Candidates Tab (Profile Manager)
 * **Description**: CRUD panel to view, add, edit, or delete candidates from the global candidate registry database. Features random avatar style selectors (via Dicebear API) for profiles. Developer profiles are locked and protected from edits.
 * **API Endpoints**: `GET /candidates`, `POST /candidates`, `PUT /candidates/{id}`, `DELETE /candidates/{id}`
 * **UI Showcase Placeholder**:
-  ![Candidate Management](assets/screenshots/tab_candidates.png)
-  *(Replace with screenshot of candidates list grid and edit modals)*
+
+
+<img width="2874" height="1784" alt="Screenshot 2026-06-26 033100" src="https://github.com/user-attachments/assets/cb56c096-6ef7-4697-9a54-2d10ec2eac32" />
+<img width="2879" height="1788" alt="Screenshot 2026-06-26 033049" src="https://github.com/user-attachments/assets/24dd41cc-5587-493a-b9ca-44b6005e1048" />
+
 
 ---
+
+<img width="2879" height="1788" alt="Screenshot 2026-06-26 032832" src="https://github.com/user-attachments/assets/978e1b74-2af7-4e98-9f53-64ed321636d9" />
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 032820" src="https://github.com/user-attachments/assets/c97f9a78-2ff9-419a-85c1-b4e3168c450a" />
+
 
 ### 🔍 5. Jobs Tab (Openings Manager)
 * **Description**: System panel to manage active job openings in the database. Add new vacancies, configure required stacks, and link salaries.
 * **API Endpoints**: `GET /jobs`, `POST /jobs`, `GET /jobs/{id}`, `GET /jobs/title/{title}`
 * **UI Showcase Placeholder**:
-  ![Jobs Management](assets/screenshots/tab_jobs.png)
-  *(Replace with screenshot of open job registry and creation tools)*
+
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 032913" src="https://github.com/user-attachments/assets/149d6c63-e953-43d1-9140-8cbce101249f" />
+
+<img width="2879" height="1798" alt="Screenshot 2026-06-26 032858" src="https://github.com/user-attachments/assets/8ea7d2df-614c-4fec-9b50-b01c07036ef1" />
+
+![Uploading Screenshot 2026-06-26 032921.png…]()
+
+<img width="2879" height="1798" alt="Screenshot 2026-06-26 032941" src="https://github.com/user-attachments/assets/bc2328f6-7bee-4d39-88e4-2135718ba96f" />
+
+
 
 ---
 
