@@ -80,16 +80,14 @@ Here is a visual walk-through of each session within the application. Drag-and-d
 * **API Endpoints**: `POST /match_jobs`
 * **UI Showcase Placeholder**:
 
-![Uploading Screenshot 2026-06-26 033329.png…]()
 
-![Uploading Screenshot 2026-06-26 033352.png…]()
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033352" src="https://github.com/user-attachments/assets/4c542bb9-5fb7-4a16-88ff-21c817a641ad" />
 
-![Uploading Screenshot 2026-06-26 033356.png…]()
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033329" src="https://github.com/user-attachments/assets/b607e07a-92ba-4513-8ff5-7395f074630c" />
 
+<img width="2879" height="1796" alt="Screenshot 2026-06-26 033356" src="https://github.com/user-attachments/assets/cbc22221-12ca-4d60-8de8-878c9103fd60" />
 
-![Uploading Screenshot 2026-06-26 033404.png…]()
-
-
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033404" src="https://github.com/user-attachments/assets/e9b8f0ab-7f18-4b66-a8ad-32425ad02b18" />
 
 
 ---
