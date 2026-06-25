@@ -1,122 +1,170 @@
-# 🚀 AI-PathFinder
+# <p align="center">🚀 AI-PathFinder</p>
 
-**Your Personal AI-Powered Career & Learning Co-Pilot**
+<p align="center">
+  <strong>Your Personal AI-Powered Career & Learning Co-Pilot</strong>
+</p>
 
-AI-PathFinder is a comprehensive full-stack application designed to empower developers and job seekers. It leverages intelligent matching algorithms to connect candidates with their ideal roles and provides structured, up-to-date learning paths for modern technical stacks. 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Badge" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI Badge" />
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite Badge" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind Badge" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite Badge" />
+</p>
 
-It is compiled as a **native Windows desktop application** that runs in its own dedicated, chromeless system window frame (using Microsoft Edge WebView2), complete with a custom installer and uninstaller.
-
----
-
-## ✨ Key Features
-
-- **🖥️ Native Desktop Experience**: Runs in a dedicated Windows app window frame (Edge WebView2) instead of opening in a standard web browser. Closing the window automatically stops all background processes.
-- **🎯 Intelligent Job Matching**: Matches user skills against a database of jobs using a refined scoring algorithm that considers partial matches and title relevance.
-- **📚 Learning Forge**: Generates structured learning roadmaps for modern stacks (React 19, Next.js 15, Data Science with Polars/PyTorch) with curated, high-quality resources.
-- **🏢 Sourcing Dashboard**: Enables companies to find top candidates based on specific skill requirements.
-- **📦 Custom Windows Installer**: Includes a wizard asking the user where they want to store the SQLite database. Writes configuration data into `config.json`.
-- **🧹 Full Clean Uninstaller**: Standard uninstallation cleans up all files, registry links, application settings, and the custom database files/directories created during runtime.
-- **⚡ Modern UI/UX**: Built with React 19 and Tailwind CSS 4, featuring global radial dot grid styling, glassmorphism card templates, and fluid spring animations.
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-- **Framework:** React 19 (Functional Components, Hooks)
-- **Styling:** Tailwind CSS 4 (Glassmorphic Components, Fixed Radial Pattern)
-- **Animations:** Framer Motion
-- **Icons:** React Icons
-- **Build Tool:** Vite
-
-### Backend / Desktop Wrapper
-- **Engine:** FastAPI (Python 3.12+)
-- **Desktop Host:** PyWebView (Microsoft Edge WebView2 Engine)
-- **Database:** SQLite
-- **Schema Validation:** Pydantic
-- **Packaging:** PyInstaller (Standalone `--onefile` compilation)
+<p align="center">
+  <img src="https://img.shields.io/badge/PyWebView-6C8EBF?style=flat-square&logo=microsoft-edge&logoColor=white" alt="PyWebView" />
+  <img src="https://img.shields.io/badge/Inno_Setup-0A5C36?style=flat-square&logo=windows&logoColor=white" alt="Inno Setup" />
+  <img src="https://img.shields.io/badge/Release-v1.0.0-pink?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/License-Freeware-blue?style=flat-square" alt="License" />
+</p>
 
 ---
 
-## 🚀 Installation & Developer Setup
+## 📁 Repository Details
+* **Repository Name**: `AI-PathFinder`
+* **Repository URL**: [https://github.com/karansinghverma979/AI-PathFinder](https://github.com/karansinghverma979/AI-PathFinder)
+* **SSH Clone Path**: `git@github.com:karansinghverma979/AI-PathFinder.git`
+* **Local Project Directory**: `C:\Users\karan\Void\AI PathFinder\F10_Popups_Karan_WebApp`
 
-### Prerequisites
-- Node.js (v18 or higher)
-- Python (v3.10 or higher)
-- Inno Setup (v6 or higher, installed automatically via Scoop)
+---
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/karansinghverma979/F9_Deveoper.git
-cd F9_Deveoper
+## 📷 Interactive Showcase (Tab Breakdown)
+
+Here is a visual walk-through of each session within the application. Drag-and-drop your screenshots in the placeholder links below to customize this documentation.
+
+### 🎯 1. Career Tab (Job Matcher)
+* **Description**: Enter your core technical skills (comma-separated). The engine runs a search matching your profile to current corporate database vacancies, calculating match metrics based on title relevance, exact matches, and partial skill matches.
+* **API Endpoints**: `POST /match_jobs`
+* **UI Showcase Placeholder**:
+  ![Career Dashboard](assets/screenshots/tab_career.png)
+  *(Replace with screenshot of career skills lookup and matching scores)*
+
+---
+
+### 📚 2. Learning Tab (AI Learning Forge)
+* **Description**: Type in any career role (e.g. Frontend Developer, Machine Learning Engineer) to forge a custom structured learning path. Provides visual steps graded by difficulty (Easy, Medium, Hard) and connects to online video guides, tutorials, and Github projects.
+* **API Endpoints**: `POST /learning`
+* **UI Showcase Placeholder**:
+  ![AI Learning Path](assets/screenshots/tab_learning.png)
+  *(Replace with screenshot of step-by-step visual learning roadmap)*
+
+---
+
+### 💼 3. Hiring Tab (Recruitment Hub)
+* **Description**: Intended for companies. Enter a job description (e.g., "Need a Python developer skilled in Django and APIs"), and the app runs a scan of the local candidate base, ranking applicants by skill alignment and providing one-click composition windows to contact candidates.
+* **API Endpoints**: `POST /hiring`
+* **UI Showcase Placeholder**:
+  ![Hiring Dashboard](assets/screenshots/tab_hiring.png)
+  *(Replace with screenshot of companies scanning and selecting top candidates)*
+
+---
+
+### 👥 4. Candidates Tab (Profile Manager)
+* **Description**: CRUD panel to view, add, edit, or delete candidates from the global candidate registry database. Features random avatar style selectors (via Dicebear API) for profiles. Developer profiles are locked and protected from edits.
+* **API Endpoints**: `GET /candidates`, `POST /candidates`, `PUT /candidates/{id}`, `DELETE /candidates/{id}`
+* **UI Showcase Placeholder**:
+  ![Candidate Management](assets/screenshots/tab_candidates.png)
+  *(Replace with screenshot of candidates list grid and edit modals)*
+
+---
+
+### 🔍 5. Jobs Tab (Openings Manager)
+* **Description**: System panel to manage active job openings in the database. Add new vacancies, configure required stacks, and link salaries.
+* **API Endpoints**: `GET /jobs`, `POST /jobs`, `GET /jobs/{id}`, `GET /jobs/title/{title}`
+* **UI Showcase Placeholder**:
+  ![Jobs Management](assets/screenshots/tab_jobs.png)
+  *(Replace with screenshot of open job registry and creation tools)*
+
+---
+
+### 🏢 6. Companies Tab (Directory Registry)
+* **Description**: Management screen displaying registered companies offering vacancies. Links companies to their specific listings and email addresses.
+* **API Endpoints**: `GET /companies`
+* **UI Showcase Placeholder**:
+  ![Companies Directory](assets/screenshots/tab_companies.png)
+  *(Replace with screenshot of company profile directories)*
+
+---
+
+### ℹ️ 7. About Tab (Architect Chronicles)
+* **Description**: Generates developer profile cards for lead designers. Employs fluid spring animations, customizable tech stacks, visual link nodes, and coffee supportupi configurations. It utilizes the unified glassmorphism theme background.
+* **API Endpoints**: `GET /candidates` (filtered by developer role)
+* **UI Showcase Placeholder**:
+  ![About Architects](assets/screenshots/tab_about.png)
+  *(Replace with screenshot of developer biographies and profile cards)*
+
+---
+
+## 🛠️ Tech Stack & Color Palette
+
+### 🎨 Visual Theme System
+* **Global Background**: Smooth linear gradient from Dark Slate Slate (`rgb(15, 23, 42)`) to Deep Indigo (`rgb(49, 46, 129)`) overlaid with a fixed micro-dot grid pattern (`radial-gradient(rgba(229, 231, 235, 0.04) 1px, transparent 1px)`).
+* **Glassmorphism Panels**: `rgba(255, 255, 255, 0.05)` translucent cards bordered with white opacity lines and active purple/pink shadows.
+* **Fluid Animations**: Smooth page entries, tab changes, and spring hover scales powered by **Framer Motion**.
+
+### 💻 Technologies Utilized
+* **Frontend Core**: React 19, Tailwind CSS 4, React Icons (Feather-Icons)
+* **Build Wrapper**: Vite
+* **Backend Framework**: FastAPI (Uvicorn HTTP server thread)
+* **Storage Database**: SQLite3 (Dynamic connection routing)
+* **GUI Desktop Window**: PyWebView (Chromeless native Edge WebView2 container wrapper)
+
+---
+
+## 📦 Bundling & Compilation Flow
+
+For the production build release, follow this sequence:
+
+```mermaid
+graph TD
+    A[Vite App: npm run build] -->|frontend/dist| B(Copy static assets to backend/static)
+    B --> C[PyInstaller Compilation]
+    C -->|AI-PathFinder.spec| D(Build single standalone console-free AI-PathFinder.exe)
+    D --> E[Inno Setup Compiler: iscc.iss]
+    E --> F([AI-PathFinder-Setup.exe Installer])
 ```
 
-### 2. Run in Development Mode
-To run the project in development mode from the source code:
-```bash
-npm install
-npm start
-```
-*This concurrently starts the FastAPI backend (port `8000`) and the React dev server, then automatically opens `http://localhost:5173` in your browser.*
-
----
-
-## 📦 Bundling & Compiling (Production Release)
-
-Follow these steps to build the standalone `.exe` and the Inno Setup installer package:
-
-### 1. Build the Frontend
+### 1. Build Frontend Assets
 ```bash
 cd frontend
 npm run build
 ```
-*This generates production-ready assets inside `frontend/dist`.*
-
-### 2. Copy Assets to Backend Static Folder
+### 2. Copy Static Dist to Backend
 ```bash
 cd ..
 python -c "import shutil, os; shutil.rmtree('backend/static', ignore_errors=True); shutil.copytree('frontend/dist', 'backend/static')"
 ```
-
-### 3. Compile Standalone `.exe` (PyInstaller)
-Install requirements and build the single, console-free Windows executable:
+### 3. PyInstaller Standalone Compilation
+Using PyInstaller in the backend virtual env with `--noconsole` to hide command prompt wrappers and `--icon` to embed the application branding:
 ```bash
 cd backend
-pip install -r requirements.txt
 pip install pyinstaller Pillow pywebview
 pyinstaller --onefile --noconsole --name "AI-PathFinder" --icon "icon.ico" --add-data "static;static" main.py
 ```
-*The output executable will be generated at `backend/dist/AI-PathFinder.exe`.*
+*Outputs compiled binary to: `backend/dist/AI-PathFinder.exe`*
 
-### 4. Build the Setup Installer (Inno Setup)
-Make sure you have Inno Setup installed (can be installed via Scoop: `scoop install inno-setup`). Compile the installer script from the root directory:
+### 4. Compile Installer (Inno Setup)
+Runs `iscc.exe` from the workspace root:
 ```bash
 iscc installer.iss
 ```
-*This generates `AI-PathFinder-Setup.exe` in the root workspace folder.*
+*Outputs setup file to: `C:\Users\karan\Void\AI PathFinder\F10_Popups_Karan_WebApp\AI-PathFinder-Setup.exe`*
 
 ---
 
-## 🗺️ How It Works
+## 🧹 Setup & Uninstaller Details
 
-### **Configuration & Persistence**
-On first startup, the installer prompts for a custom database directory and saves this in `config.json`. The application reads this directory to initialize/connect to `candidates.db`. If the database is brand new, the app automatically runs seeding functions to populate jobs, companies, and candidates.
-
-### **Uninstaller Clean Up**
-When a user runs the uninstaller, the process reads the location of the database from `config.json`, forcefully deletes the sqlite database files, deletes the directory tree, deletes the installer files under Program Files, and cleans up shortcuts.
+* **Interactive Setup Wizard**: Allows the user to select the program install path and prompts for a separate database destination folder. Saves settings into `config.json` inside the installation folder `{app}`.
+* **Runtime Database Configuration**: On startup, [database.py](file:///C:/Users/karan/Void/AI%20PathFinder/F10_Popups_Karan_WebApp/backend/database.py) parses `config.json` to load the DB path. If the SQLite database does not exist, it runs the tables schema and auto-seeds jobs/companies/candidates immediately.
+* **Deep Clean Uninstaller**: During uninstallation, the custom Pascal routine reads the DB target folder, deletes the database files (`candidates.db`, journal, WAL), removes parent data folders, and deletes `{app}` along with shortcut registrations.
 
 ---
 
-## 🤝 Collaboration & Support
-
-### The Architects
-- **Karan Singh Verma** - *Lead Full Stack Developer*
-- **Ankit Kushwaha** - *Backend Architect*
-- **Akarshan Gupta** - *UI/UX Designer*
-
----
-
-## 📜 License
-This project is built with dedication and self-taught craftsmanship. Feel free to explore, learn, and build upon it.
+## 🤝 The Architects
+* **Karan Singh Verma** - *Lead Full Stack Developer*
+* **Ankit Kushwaha** - *Backend Architect*
+* **Akarshan Gupta** - *UI/UX Designer*
 
 *AI-PathFinder © 2025*
