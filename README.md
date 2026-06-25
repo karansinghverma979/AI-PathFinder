@@ -22,8 +22,6 @@
 
 ---
 
-<img width="2879" height="1799" alt="Screenshot 2026-06-26 032746" src="https://github.com/user-attachments/assets/9fb8ad18-df3c-4391-b069-a56b530ec56e" />
-
 
 ## 📁 Repository Details
 * **Repository Name**: `AI-PathFinder`
@@ -33,14 +31,10 @@
 
 ---
 
-<img width="2879" height="1799" alt="Screenshot 2026-06-26 033329" src="https://github.com/user-attachments/assets/bde9702a-15f4-44b3-8d64-1c28013e9efa" />
-
 
 ## 📷 Interactive Showcase (Tab Breakdown)
 
 Here is a visual walk-through of each session within the application. Drag-and-drop your screenshots in the placeholder links below to customize this documentation.
-
-<img width="2879" height="1796" alt="Screenshot 2026-06-26 033356" src="https://github.com/user-attachments/assets/5872a18b-8da5-4153-8b71-32b52b854b73" />
 
 
 ### 🎯 1. Career Tab (Job Matcher)
@@ -48,15 +42,20 @@ Here is a visual walk-through of each session within the application. Drag-and-d
 * **API Endpoints**: `POST /match_jobs`
 * **UI Showcase Placeholder**:
 
-<img width="2879" height="1799" alt="Screenshot 2026-06-26 033404" src="https://github.com/user-attachments/assets/df256fdb-c376-46b7-85a6-1fcb6ecd84c4" />
+![Uploading Screenshot 2026-06-26 033329.png…]()
+
+![Uploading Screenshot 2026-06-26 033352.png…]()
+
+![Uploading Screenshot 2026-06-26 033356.png…]()
 
 
-<img width="2879" height="1799" alt="Screenshot 2026-06-26 033352" src="https://github.com/user-attachments/assets/4c39f83f-e669-4fce-80b9-7cfa7a2a2c00" />
+![Uploading Screenshot 2026-06-26 033404.png…]()
+
+
+
 
 ---
 
-<img width="2879" height="1799" alt="Screenshot 2026-06-26 033156" src="https://github.com/user-attachments/assets/d669b8f8-6bd8-4aac-99e8-444888c1ae6a" />
-<img width="2879" height="1799" alt="Screenshot 2026-06-26 033146" src="https://github.com/user-attachments/assets/c4c2d2cf-29af-438a-8253-3beaba9d3cd9" />
 
 
 ### 📚 2. Learning Tab (AI Learning Forge)
@@ -64,15 +63,18 @@ Here is a visual walk-through of each session within the application. Drag-and-d
 * **API Endpoints**: `POST /learning`
 * **UI Showcase Placeholder**:
 
-<img width="2879" height="1798" alt="Screenshot 2026-06-26 033208" src="https://github.com/user-attachments/assets/8920ec85-2942-470d-be0d-44f5e2726f8b" />
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033146" src="https://github.com/user-attachments/assets/33c77c55-39ba-4a49-bdba-8c1fc1512183" />
 
-<img width="2879" height="1799" alt="Screenshot 2026-06-26 033217" src="https://github.com/user-attachments/assets/c92662a7-3ed7-4a34-ab0e-fd0a906985fb" />
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033156" src="https://github.com/user-attachments/assets/92aebb39-592d-4249-8441-766ec9ec627e" />
+
+<img width="2879" height="1798" alt="Screenshot 2026-06-26 033208" src="https://github.com/user-attachments/assets/12594f51-3ff5-4d5b-bb6e-a4575bf2322b" />
+
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033217" src="https://github.com/user-attachments/assets/cd4a9354-f165-4581-84b5-d3d517ca4081" />
 
 
   
 ---
 
-<img width="2879" height="1799" alt="Screenshot 2026-06-26 033113" src="https://github.com/user-attachments/assets/7e05cc4d-512d-45cd-902c-37199b076acc" />
 
 
 ### 💼 3. Hiring Tab (Recruitment Hub)
@@ -80,14 +82,14 @@ Here is a visual walk-through of each session within the application. Drag-and-d
 * **API Endpoints**: `POST /hiring`
 * **UI Showcase Placeholder**:
 
- <img width="2879" height="1799" alt="Screenshot 2026-06-26 033131" src="https://github.com/user-attachments/assets/981e7183-f76b-4ddc-8a70-e4405428818e" />
- <img width="2879" height="1799" alt="Screenshot 2026-06-26 033137" src="https://github.com/user-attachments/assets/c48090dc-b3e3-457e-a485-4c1bced0c573" />
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033113" src="https://github.com/user-attachments/assets/faf4437b-067b-40e0-8764-84958aef89ae" />
+
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033131" src="https://github.com/user-attachments/assets/2a380f8a-cf86-4fc0-b90c-4d23009b5435" />
+
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033137" src="https://github.com/user-attachments/assets/40650a89-beb1-4bd7-b745-469d0c2397d1" />
 
 
 ---
-
-<img width="2879" height="1770" alt="Screenshot 2026-06-26 033038" src="https://github.com/user-attachments/assets/2abfaeb7-2d19-4d82-9eae-baffaa8ca6f0" />
-<img width="2879" height="1798" alt="Screenshot 2026-06-26 033028" src="https://github.com/user-attachments/assets/704a9a7e-0fdb-4d07-a3ad-11544a44044c" />
 
 
 ### 👥 4. Candidates Tab (Profile Manager)
@@ -96,14 +98,17 @@ Here is a visual walk-through of each session within the application. Drag-and-d
 * **UI Showcase Placeholder**:
 
 
-<img width="2874" height="1784" alt="Screenshot 2026-06-26 033100" src="https://github.com/user-attachments/assets/cb56c096-6ef7-4697-9a54-2d10ec2eac32" />
-<img width="2879" height="1788" alt="Screenshot 2026-06-26 033049" src="https://github.com/user-attachments/assets/24dd41cc-5587-493a-b9ca-44b6005e1048" />
+<img width="2879" height="1798" alt="Screenshot 2026-06-26 033028" src="https://github.com/user-attachments/assets/cfc00199-3946-4ed4-8b1d-11f917f0577b" />
+
+<img width="2879" height="1770" alt="Screenshot 2026-06-26 033038" src="https://github.com/user-attachments/assets/8c7606e2-257c-4142-95ed-fce107a43745" />
+
+<img width="2879" height="1788" alt="Screenshot 2026-06-26 033049" src="https://github.com/user-attachments/assets/2257520b-808c-4d8f-abba-465f01e4f546" />
+
+<img width="2874" height="1784" alt="Screenshot 2026-06-26 033100" src="https://github.com/user-attachments/assets/e87578b8-ae09-4954-a928-38608a5a2eb3" />
 
 
 ---
 
-<img width="2879" height="1788" alt="Screenshot 2026-06-26 032832" src="https://github.com/user-attachments/assets/978e1b74-2af7-4e98-9f53-64ed321636d9" />
-<img width="2879" height="1799" alt="Screenshot 2026-06-26 032820" src="https://github.com/user-attachments/assets/c97f9a78-2ff9-419a-85c1-b4e3168c450a" />
 
 
 ### 🔍 5. Jobs Tab (Openings Manager)
@@ -111,14 +116,14 @@ Here is a visual walk-through of each session within the application. Drag-and-d
 * **API Endpoints**: `GET /jobs`, `POST /jobs`, `GET /jobs/{id}`, `GET /jobs/title/{title}`
 * **UI Showcase Placeholder**:
 
-<img width="2879" height="1799" alt="Screenshot 2026-06-26 032913" src="https://github.com/user-attachments/assets/149d6c63-e953-43d1-9140-8cbce101249f" />
 
-<img width="2879" height="1798" alt="Screenshot 2026-06-26 032858" src="https://github.com/user-attachments/assets/8ea7d2df-614c-4fec-9b50-b01c07036ef1" />
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 032952" src="https://github.com/user-attachments/assets/c0fd5181-023f-4344-aa1f-13d0feef4583" />
 
-![Uploading Screenshot 2026-06-26 032921.png…]()
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033001" src="https://github.com/user-attachments/assets/aef1169d-a890-4915-a23a-649137ac4345" />
 
-<img width="2879" height="1798" alt="Screenshot 2026-06-26 032941" src="https://github.com/user-attachments/assets/bc2328f6-7bee-4d39-88e4-2135718ba96f" />
+<img width="2879" height="1798" alt="Screenshot 2026-06-26 033009" src="https://github.com/user-attachments/assets/d585e9aa-a925-49ed-b193-e785626a4163" />
 
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 033016" src="https://github.com/user-attachments/assets/3429dc7e-19cf-4d94-9bc7-e1b5738b58c5" />
 
 
 ---
@@ -127,17 +132,36 @@ Here is a visual walk-through of each session within the application. Drag-and-d
 * **Description**: Management screen displaying registered companies offering vacancies. Links companies to their specific listings and email addresses.
 * **API Endpoints**: `GET /companies`
 * **UI Showcase Placeholder**:
-  ![Companies Directory](assets/screenshots/tab_companies.png)
-  *(Replace with screenshot of company profile directories)*
+* 
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 032820" src="https://github.com/user-attachments/assets/801fa1ef-d83f-4fd3-9916-e6b2daa18e23" />
+
+<img width="2879" height="1788" alt="Screenshot 2026-06-26 032832" src="https://github.com/user-attachments/assets/3ef9f560-bac5-4840-8d72-27c02f126e66" />
+
+<img width="2879" height="1798" alt="Screenshot 2026-06-26 032858" src="https://github.com/user-attachments/assets/5e1283a2-42cc-4ec9-bc0c-1b053ac83fd3" />
+
+
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 032913" src="https://github.com/user-attachments/assets/8a387bfb-406a-48fa-a229-e1b0acfd8493" />
+
+![Uploading Screenshot 2026-06-26 032921.png…]()
+
+<img width="2879" height="1798" alt="Screenshot 2026-06-26 032941" src="https://github.com/user-attachments/assets/2f5e850b-e72b-4c13-b40f-38ad684835bc" />
 
 ---
+
 
 ### ℹ️ 7. About Tab (Architect Chronicles)
 * **Description**: Generates developer profile cards for lead designers. Employs fluid spring animations, customizable tech stacks, visual link nodes, and coffee supportupi configurations. It utilizes the unified glassmorphism theme background.
 * **API Endpoints**: `GET /candidates` (filtered by developer role)
 * **UI Showcase Placeholder**:
-  ![About Architects](assets/screenshots/tab_about.png)
-  *(Replace with screenshot of developer biographies and profile cards)*
+
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 032746" src="https://github.com/user-attachments/assets/6d9c9f11-501b-4c14-bf88-c9e4d6157f9b" />
+
+<img width="2879" height="1799" alt="Screenshot 2026-06-26 032756" src="https://github.com/user-attachments/assets/f1ad6cdf-0580-4788-97cb-6505de88a7c7" />
+
+<img width="2879" height="1795" alt="Screenshot 2026-06-26 032805" src="https://github.com/user-attachments/assets/a922678d-0058-4cf8-8262-078dd1060a93" />
+
+<img width="2877" height="1793" alt="Screenshot 2026-06-26 032811" src="https://github.com/user-attachments/assets/7d2b3992-8531-438e-81f1-0db986182da7" />
+
 
 ---
 
