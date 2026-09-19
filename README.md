@@ -27,7 +27,7 @@
 * **Repository Name**: `AI-PathFinder`
 * **Repository URL**: [https://github.com/karansinghverma979/AI-PathFinder](https://github.com/karansinghverma979/AI-PathFinder)
 * **SSH Clone Path**: `git@github.com:karansinghverma979/AI-PathFinder.git`
-* **Local Project Directory**: `C:\Users\karan\Void\AI PathFinder\F10_Popups_Karan_WebApp`
+* **Local Project Directory**: `C:\Users\<username>\Void\AI PathFinder\F10_Popups_Karan_WebApp`
 
 ---
 
