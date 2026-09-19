@@ -1,4 +1,4 @@
-# <p align="center">🚀 AI-PathFinder</p>
+# <p align="center">🚀 AI-PathFinder </p>
 
 <p align="center">
   <strong>Your Personal AI-Powered Career & Learning Co-Pilot</strong>
