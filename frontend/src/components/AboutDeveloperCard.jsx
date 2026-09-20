@@ -15,7 +15,7 @@ const AboutDeveloperCard = ({ developer, index }) => {
     // Specific Info for Karan Singh Verma
     const isKaran = developer.name === "Karan Singh Verma";
     const contactInfoData = isKaran ? {
-        mobile: "8718990696",
+        mobile: "",
         email: "karansinghverma979@gmail.com",
         github: "https://github.com/karansinghverma979/",
         linkedin: "https://www.linkedin.com/in/karansinghverma979/"
