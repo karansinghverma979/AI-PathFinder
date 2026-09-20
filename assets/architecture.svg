@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0914" />
+      <stop offset="100%" stop-color="#140E26" />
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1F1635" />
+      <stop offset="100%" stop-color="#150E24" />
+    </linearGradient>
+    <linearGradient id="hub-career" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#BE185D" />
+    </linearGradient>
+    <linearGradient id="hub-learning" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#6D28D9" />
+    </linearGradient>
+    <linearGradient id="hub-hiring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+    <linearGradient id="hub-candidates" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1000" height="620" rx="16" fill="url(#bg)" stroke="#2E1B4E" stroke-width="2" />
+
+  <!-- Title Header -->
+  <text x="50" y="52" fill="#F3E8FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" letter-spacing="1">🧭 AI-PATHFINDER · SYSTEM ARCHITECTURE</text>
+  <text x="50" y="78" fill="#A855F7" font-family="monospace" font-size="12">STANDALONE SOVEREIGN DESKTOP RUNTIME · FASTAPI + REACT 18 + SQLITE3</text>
+
+  <!-- ==================== TIER 1: USER INTERACTION (REACT + VITE) ==================== -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="105" width="900" height="150" rx="12" fill="url(#card-grad)" stroke="#3B265D" stroke-width="1.5" />
+    <text x="75" y="135" fill="#E9D5FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">PRESENTATION LAYER · REACT 18 + VITE + TAILWIND CSS</text>
+
+    <!-- Hub 1: Career -->
+    <rect x="75" y="150" width="200" height="85" rx="8" fill="#24143D" stroke="#EC4899" stroke-width="1.2" />
+    <text x="90" y="176" fill="#F472B6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">🎯 CAREER MATCHER</text>
+    <text x="90" y="196" fill="#D1D5DB" font-family="monospace" font-size="10">• Skill Gap Extraction</text>
+    <text x="90" y="212" fill="#D1D5DB" font-family="monospace" font-size="10">• Percentage Overlap</text>
+
+    <!-- Hub 2: Learning Forge -->
+    <rect x="295" y="150" width="200" height="85" rx="8" fill="#24143D" stroke="#8B5CF6" stroke-width="1.2" />
+    <text x="310" y="176" fill="#A78BFA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">📚 LEARNING FORGE</text>
+    <text x="310" y="196" fill="#D1D5DB" font-family="monospace" font-size="10">• 3-Tier Graded Paths</text>
+    <text x="310" y="212" fill="#D1D5DB" font-family="monospace" font-size="10">• React 19 / Py / Cloud</text>
+
+    <!-- Hub 3: Hiring Hub -->
+    <rect x="515" y="150" width="200" height="85" rx="8" fill="#24143D" stroke="#06B6D4" stroke-width="1.2" />
+    <text x="530" y="176" fill="#67E8F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">💼 HIRING MATRIX</text>
+    <text x="530" y="196" fill="#D1D5DB" font-family="monospace" font-size="10">• Reverse Candidate Scan</text>
+    <text x="530" y="212" fill="#D1D5DB" font-family="monospace" font-size="10">• 1-Click Profile Contact</text>
+
+    <!-- Hub 4: Candidates CRUD -->
+    <rect x="735" y="150" width="190" height="85" rx="8" fill="#24143D" stroke="#10B981" stroke-width="1.2" />
+    <text x="750" y="176" fill="#6EE7B7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">👥 CANDIDATES DIR</text>
+    <text x="750" y="196" fill="#D1D5DB" font-family="monospace" font-size="10">• SQLite Database CRUD</text>
+    <text x="750" y="212" fill="#D1D5DB" font-family="monospace" font-size="10">• Dicebear Avatars</text>
+  </g>
+
+  <!-- Connectors Tier 1 to Tier 2 -->
+  <line x1="500" y1="255" x2="500" y2="295" stroke="#A855F7" stroke-width="2" stroke-dasharray="4,4" />
+  <polygon points="495,290 500,300 505,290" fill="#A855F7" />
+
+  <!-- ==================== TIER 2: BACKEND ENGINE (FASTAPI) ==================== -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="300" width="900" height="145" rx="12" fill="url(#card-grad)" stroke="#3B265D" stroke-width="1.5" />
+    <text x="75" y="330" fill="#E9D5FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">APPLICATION ENGINE · FASTAPI + PYINSTALLER EXECUTABLE</text>
+
+    <rect x="75" y="345" width="265" height="80" rx="8" fill="#1B122E" stroke="#581C87" stroke-width="1" />
+    <text x="90" y="372" fill="#C084FC" font-family="monospace" font-size="12" font-weight="700">module_career.py</text>
+    <text x="90" y="392" fill="#9CA3AF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Job role parsing, skill intersection,</text>
+    <text x="90" y="408" fill="#9CA3AF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">and weighted compatibility scoring.</text>
+
+    <rect x="365" y="345" width="270" height="80" rx="8" fill="#1B122E" stroke="#581C87" stroke-width="1" />
+    <text x="380" y="372" fill="#C084FC" font-family="monospace" font-size="12" font-weight="700">module_learning.py</text>
+    <text x="380" y="392" fill="#9CA3AF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Curated roadmap milestone graphs,</text>
+    <text x="380" y="408" fill="#9CA3AF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">graded tutorials, and project links.</text>
+
+    <rect x="660" y="345" width="265" height="80" rx="8" fill="#1B122E" stroke="#581C87" stroke-width="1" />
+    <text x="675" y="372" fill="#C084FC" font-family="monospace" font-size="12" font-weight="700">module_hiring.py</text>
+    <text x="675" y="392" fill="#9CA3AF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Reverse recruitment engine matching</text>
+    <text x="675" y="408" fill="#9CA3AF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">job specs to database candidate pool.</text>
+  </g>
+
+  <!-- Connectors Tier 2 to Tier 3 -->
+  <line x1="500" y1="445" x2="500" y2="480" stroke="#10B981" stroke-width="2" stroke-dasharray="4,4" />
+  <polygon points="495,475 500,485 505,475" fill="#10B981" />
+
+  <!-- ==================== TIER 3: SOVEREIGN STORAGE & DEPLOYMENT ==================== -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="485" width="900" height="95" rx="12" fill="url(#card-grad)" stroke="#164E63" stroke-width="1.5" />
+    <text x="75" y="515" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">PERSISTENCE & PACKAGING · 100% LOCAL & PORTABLE</text>
+    <text x="75" y="538" fill="#9CA3AF" font-family="monospace" font-size="12">SQLite Database (%LOCALAPPDATA%\AI-PathFinder\Database\candidates.db) · Auto-Schema & Seeding</text>
+    <text x="75" y="556" fill="#6B7280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Inno Setup 6 Custom Pascal Wizard · Dynamic config.json DB Destination · Standalone Zero-Dependency Installer</text>
+    
+    <rect x="760" y="505" width="165" height="38" rx="6" fill="#064E3B" stroke="#059669" stroke-width="1"/>
+    <text x="785" y="529" fill="#6EE7B7" font-family="monospace" font-size="12" font-weight="700">INNO SETUP 6</text>
+  </g>
+</svg>
