@@ -3,8 +3,8 @@
 > **AI-Powered Career Navigator, Skill Gap Visualizer & Autonomous Recruitment Matrix**
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=C084FC&center=true&vCenter=true&width=650&height=150&lines=🧭+AI-Powered+Career+Navigator+%26+Gap+Visualizer;⚡+Synthesizing+Structured+3-Tier+Learning+Paths;💼+Reverse-Hiring+Talent+Acquisition+Matrix;🛡️+100%25+Local+Sovereign+Execution+on+Windows+11" alt="Typing SVG" />
+  <a href="https://github.com/karansinghverma979/AI-PathFinder">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=C084FC&center=true&vCenter=true&multiline=true&width=800&height=150&lines=AI-Powered+Career+Navigator+%26+Skill+Gap+Visualizer;Synthesizing+Structured+3-Tier+Technical+Roadmaps;Reverse-Hiring+Talent+Acquisition+Matrix;100%25+Local+Sovereign+Execution+on+Windows+11" alt="Typing SVG" />
   </a>
 </p>
 
