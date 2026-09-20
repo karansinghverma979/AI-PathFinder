@@ -10,8 +10,10 @@ import sys
 from typing import List
 
 # Write debug logs to verify path resolution
-log_file = r"C:\Users\karan\Void\AI PathFinder\F10_Popups_Karan_WebApp\debug_log.txt"
+log_dir = os.path.join(os.environ.get("LOCALAPPDATA", os.path.expanduser("~")), "AI-PathFinder", "Logs")
 try:
+    os.makedirs(log_dir, exist_ok=True)
+    log_file = os.path.join(log_dir, "debug_log.txt")
     with open(log_file, "a", encoding="utf-8") as f:
         f.write(f"\n--- Application Startup at {datetime.datetime.now()} ---\n")
         f.write(f"sys.executable: {sys.executable}\n")

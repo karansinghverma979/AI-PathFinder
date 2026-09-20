@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🧭 Standalone Windows Installer
+    url: https://github.com/karansinghverma979/AI-PathFinder/releases
+    about: Download precompiled Windows installers (v1.0.0) and view changelogs.
+  - name: 📖 Architectural Documentation & Manual
+    url: https://github.com/karansinghverma979/AI-PathFinder#readme
+    about: Read deep architectural details, API specifications, and database workflows.
+  - name: 🍴 Fork AI-PathFinder for Personal Customization
+    url: https://github.com/karansinghverma979/AI-PathFinder/fork
+    about: Fork this repository under the MIT License to build custom variations and experiments.

@@ -49,3 +49,9 @@ config.json
 *.log
 debug_log.txt
 
+# Compiled binaries & installers (distribute via GitHub Releases)
+*.exe
+*.msi
+Output/
+backend/dist/
+backend/build/
