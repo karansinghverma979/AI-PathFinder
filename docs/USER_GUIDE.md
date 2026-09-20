@@ -30,6 +30,13 @@ The **Career Tab** helps developers and job seekers discover how their existing 
    * **Missing Skills (Skill Gap)**: Highlights exactly what you need to learn to become 100% qualified.
 4. Click on any job card to expand the full description, company profile, and location.
 
+<p align="center">
+  <img width="800" alt="Career Matcher Overview" src="../assets/screenshots/career-matcher-1.png" />
+</p>
+<p align="center">
+  <img width="800" alt="Career Match Score Breakdown" src="../assets/screenshots/career-matcher-2.png" />
+</p>
+
 ---
 
 ## 3. 📚 Learning Tab (AI Learning Forge)
@@ -48,6 +55,13 @@ The **Learning Tab** creates structured, 3-tier educational pathways for technic
    * 📄 **Official Documentation**: Up-to-date framework docs.
    * 🐙 **Open-Source GitHub Repos**: Production codebases for hands-on reference.
 
+<p align="center">
+  <img width="800" alt="Learning Roadmap" src="../assets/screenshots/learning-forge-1.png" />
+</p>
+<p align="center">
+  <img width="800" alt="Milestone Resources" src="../assets/screenshots/learning-forge-2.png" />
+</p>
+
 ---
 
 ## 4. 💼 Hiring Tab (Recruitment Hub)
@@ -63,6 +77,13 @@ Designed for companies, engineering leads, and technical recruiters who need to 
    * Visualizes matched vs. missing skills for every applicant.
 4. Click **"Contact Candidate"** to launch a pre-composed email draft directly to the candidate.
 
+<p align="center">
+  <img width="800" alt="Hiring Search" src="../assets/screenshots/hiring-hub-1.png" />
+</p>
+<p align="center">
+  <img width="800" alt="Ranked Candidates" src="../assets/screenshots/hiring-hub-2.png" />
+</p>
+
 ---
 
 ## 5. 👥 Candidates Tab (Profile Manager)
@@ -74,6 +95,10 @@ The **Candidates Tab** is your global talent directory.
 * **Dicebear Avatar Selection**: Generate unique, expressive avatars for candidate profiles via the built-in avatar selector.
 * **Developer Lock**: Core system profiles (e.g., Lead Architect profiles) are flagged with `is_developer = 1` to protect them against accidental edits or deletion.
 * **Search & Filter**: Filter candidates instantly by skill keywords or location.
+
+<p align="center">
+  <img width="800" alt="Candidate Management Directory" src="../assets/screenshots/candidates-directory.png" />
+</p>
 
 ---
 

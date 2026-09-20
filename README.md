@@ -120,19 +120,19 @@ For developers who want to inspect or extend the code:
 * **API Endpoints**: `POST /match_jobs`
 
 <p align="center">
-  <img width="900" alt="Career Matcher Overview" src="https://github.com/user-attachments/assets/b607e07a-92ba-4513-8ff5-7395f074630c" />
+  <img width="900" alt="Career Matcher Overview" src="assets/screenshots/career-matcher-1.png" />
 </p>
 
 <p align="center">
-  <img width="900" alt="Career Match Score Breakdown" src="https://github.com/user-attachments/assets/4c542bb9-5fb7-4a16-88ff-21c817a641ad" />
+  <img width="900" alt="Career Match Score Breakdown" src="assets/screenshots/career-matcher-2.png" />
 </p>
 
 <p align="center">
-  <img width="900" alt="Detailed Job Alignment" src="https://github.com/user-attachments/assets/cbc22221-12ca-4d60-8de8-878c9103fd60" />
+  <img width="900" alt="Detailed Job Alignment" src="assets/screenshots/career-matcher-3.png" />
 </p>
 
 <p align="center">
-  <img width="900" alt="Skill Gap Analysis" src="https://github.com/user-attachments/assets/e9b8f0ab-7f18-4b66-a8ad-32425ad02b18" />
+  <img width="900" alt="Skill Gap Analysis" src="assets/screenshots/career-matcher-4.png" />
 </p>
 
 ---
@@ -142,19 +142,19 @@ For developers who want to inspect or extend the code:
 * **API Endpoints**: `POST /learning`
 
 <p align="center">
-  <img width="900" alt="Learning Roadmap" src="https://github.com/user-attachments/assets/33c77c55-39ba-4a49-bdba-8c1fc1512183" />
+  <img width="900" alt="Learning Roadmap" src="assets/screenshots/learning-forge-1.png" />
 </p>
 
 <p align="center">
-  <img width="900" alt="Milestone Resources" src="https://github.com/user-attachments/assets/92aebb39-592d-4249-8441-766ec9ec627e" />
+  <img width="900" alt="Milestone Resources" src="assets/screenshots/learning-forge-2.png" />
 </p>
 
 <p align="center">
-  <img width="900" alt="Learning Path Forge" src="https://github.com/user-attachments/assets/12594f51-3ff5-4d5b-bb6e-a4575bf2322b" />
+  <img width="900" alt="Learning Path Forge" src="assets/screenshots/learning-forge-3.png" />
 </p>
 
 <p align="center">
-  <img width="900" alt="Step-by-step Modules" src="https://github.com/user-attachments/assets/cd4a9354-f165-4581-84b5-d3d517ca4081" />
+  <img width="900" alt="Step-by-step Modules" src="assets/screenshots/learning-forge-4.png" />
 </p>
 
 ---
@@ -164,15 +164,15 @@ For developers who want to inspect or extend the code:
 * **API Endpoints**: `POST /hiring`
 
 <p align="center">
-  <img width="900" alt="Hiring Search" src="https://github.com/user-attachments/assets/faf4437b-067b-40e0-8764-84958aef89ae" />
+  <img width="900" alt="Hiring Search" src="assets/screenshots/hiring-hub-1.png" />
 </p>
 
 <p align="center">
-  <img width="900" alt="Ranked Candidates" src="https://github.com/user-attachments/assets/2a380f8a-cf86-4fc0-b90c-4d23009b5435" />
+  <img width="900" alt="Ranked Candidates" src="assets/screenshots/hiring-hub-2.png" />
 </p>
 
 <p align="center">
-  <img width="900" alt="Applicant Skill Match" src="https://github.com/user-attachments/assets/40650a89-beb1-4bd7-b745-469d0c2397d1" />
+  <img width="900" alt="Applicant Skill Match" src="assets/screenshots/hiring-hub-3.png" />
 </p>
 
 ---
@@ -182,7 +182,7 @@ For developers who want to inspect or extend the code:
 * **API Endpoints**: `GET /candidates`, `POST /candidates`, `PUT /candidates/{id}`, `DELETE /candidates/{id}`
 
 <p align="center">
-  <img width="900" alt="Candidate Management Directory" src="https://github.com/user-attachments/assets/cfc00199-3946-4ed4-8b1d-11f917f0577b" />
+  <img width="900" alt="Candidate Management Directory" src="assets/screenshots/candidates-directory.png" />
 </p>
 
 ---
