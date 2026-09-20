@@ -1,0 +1,15 @@
+node_modules
+**/node_modules
+venv
+.venv
+**/venv
+**/__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.exe
+*.iss
+.git
+.github
+.local
+assets/screenshots

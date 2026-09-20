@@ -54,11 +54,14 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:5173",
+    "http://127.0.0.1:8000",
+    "http://127.0.0.1:7860",
 ]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
+    allow_origin_regex=r"https?://.*",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -603,6 +606,9 @@ if os.path.exists(static_dir):
 
     @app.get("/{path_name:path}")
     def serve_frontend(path_name: str):
+        file_path = os.path.join(static_dir, path_name)
+        if os.path.isfile(file_path):
+            return FileResponse(file_path)
         index_file = os.path.join(static_dir, "index.html")
         if os.path.exists(index_file):
             return FileResponse(index_file)

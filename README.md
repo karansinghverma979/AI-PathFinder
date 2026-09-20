@@ -23,13 +23,18 @@
   <img src="https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20x64-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 11" />
   <img src="https://img.shields.io/badge/Stack-FastAPI%20%2B%20React%20%2B%20SQLite3-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="Stack" />
   <img src="https://img.shields.io/badge/Security-100%25%20Local%20Sovereign-green?style=for-the-badge&logo=shieldsdotio&logoColor=white" alt="Local Sovereign" />
+  <a href="https://huggingface.co/spaces/karansinghverma979/AI-PathFinder">
+    <img src="https://img.shields.io/badge/Live%20Demo-Hugging%20Face%20Spaces-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Live Demo" />
+  </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" />
   </a>
 </p>
 
 <p align="center">
+  <a href="https://huggingface.co/spaces/karansinghverma979/AI-PathFinder"><b>🌐 Live Browser Demo</b></a> ·
   <a href="docs/ARCHITECTURE.md"><b>🏛️ Architecture Blueprint</b></a> ·
+  <a href="docs/DEPLOYMENT.md"><b>☁️ Cloud Deployment</b></a> ·
   <a href="docs/USER_GUIDE.md"><b>📖 User Manual</b></a> ·
   <a href="docs/INSTALLATION.md"><b>🚀 Installation Guide</b></a> ·
   <a href="RELEASE.md"><b>📦 Release Chronicles</b></a>
@@ -80,13 +85,31 @@ irm https://github.com/karansinghverma979/AI-PathFinder/releases/download/v1.0.0
 
 ## 🚀 30-Second Quickstart
 
-### Option A: Standalone Windows App (Recommended)
+### Pathway 1: 🌐 Live Cloud Demo (Instant In-Browser — Zero Download)
+Experience the full-featured application live in your browser right now without installing anything:
+👉 **[Launch AI-PathFinder Live on Hugging Face Spaces](https://huggingface.co/spaces/karansinghverma979/AI-PathFinder)** *(100% Free · Cloud Hosted)*
+
+---
+
+### Pathway 2: 💻 Standalone Windows App (Recommended Desktop)
 Download and run the pre-compiled installer. Zero external dependencies required (no Python or Node.js needed):
 ```powershell
 irm https://github.com/karansinghverma979/AI-PathFinder/releases/download/v1.0.0/AI-PathFinder-Setup.exe -OutFile AI-PathFinder-Setup.exe; .\AI-PathFinder-Setup.exe
 ```
 
-### Option B: Local Development from Source
+---
+
+### Pathway 3: 🐳 Production Docker Container
+Launch the unified full-stack web application with a single command:
+```bash
+docker build -t ai-pathfinder .
+docker run -p 7860:7860 ai-pathfinder
+```
+*Access interactive dashboard at `http://localhost:7860`.*
+
+---
+
+### Pathway 4: 🛠️ Local Development from Source
 For developers who want to inspect or extend the code:
 
 1. **Clone the repository**:
