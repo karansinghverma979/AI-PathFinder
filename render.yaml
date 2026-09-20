@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ai-pathfinder
+    env: python
+    plan: free
+    buildCommand: "cd frontend && npm install && npm run build && cd .. && mkdir -p backend/static && cp -r frontend/dist/* backend/static/ && pip install -r backend/requirements.txt"
+    startCommand: "cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
