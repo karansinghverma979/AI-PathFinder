@@ -23,8 +23,8 @@
   <img src="https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20x64-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 11" />
   <img src="https://img.shields.io/badge/Stack-FastAPI%20%2B%20React%20%2B%20SQLite3-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="Stack" />
   <img src="https://img.shields.io/badge/Security-100%25%20Local%20Sovereign-green?style=for-the-badge&logo=shieldsdotio&logoColor=white" alt="Local Sovereign" />
-  <a href="https://render.com/deploy?repo=https://github.com/karansinghverma979/AI-PathFinder">
-    <img src="https://img.shields.io/badge/Deploy%20to-Render%20(Free)-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Deploy to Render" />
+  <a href="https://karansinghverma979.github.io/AI-PathFinder/">
+    <img src="https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live Demo" />
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" />
@@ -32,8 +32,9 @@
 </p>
 
 <p align="center">
-  <a href="docs/DEPLOYMENT.md"><b>🌐 Cloud Deployment Guide</b></a> ·
+  <a href="https://karansinghverma979.github.io/AI-PathFinder/"><b>🌐 Live Browser Demo</b></a> ·
   <a href="docs/ARCHITECTURE.md"><b>🏛️ Architecture Blueprint</b></a> ·
+  <a href="docs/DEPLOYMENT.md"><b>☁️ Cloud Deployment</b></a> ·
   <a href="docs/USER_GUIDE.md"><b>📖 User Manual</b></a> ·
   <a href="docs/INSTALLATION.md"><b>🚀 Installation Guide</b></a> ·
   <a href="RELEASE.md"><b>📦 Release Chronicles</b></a>
@@ -85,8 +86,8 @@ irm https://github.com/karansinghverma979/AI-PathFinder/releases/download/v1.0.0
 ## 🚀 30-Second Quickstart
 
 ### Pathway 1: 🌐 Live Cloud Demo (Instant In-Browser — Zero Download)
-Host and test the full-featured application live in the browser for **100% free with zero credit card**:
-👉 **[Deploy 1-Click Free to Render](https://render.com/deploy?repo=https://github.com/karansinghverma979/AI-PathFinder)** · *See the [Cloud Deployment Guide](docs/DEPLOYMENT.md) for step-by-step instructions.*
+Experience the full-featured application live in your browser right now with zero installation, zero downloads, and zero delay:
+👉 **[Launch AI-PathFinder Live on GitHub Pages](https://karansinghverma979.github.io/AI-PathFinder/)** *(100% Free · Sovereign In-Browser Engine · Zero Delay)*
 
 ---
 

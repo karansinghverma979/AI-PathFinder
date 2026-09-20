@@ -2,50 +2,44 @@
 
 > **Zero Maintenance · Zero Cost Forever · No Credit Card Required**
 
-This guide documents how to host **AI-PathFinder** permanently on the cloud so users can test the application live in their browser without downloading the desktop installer.
+This guide documents the deployment pathways for **AI-PathFinder**, enabling users to test the application live in their browser without downloading the desktop installer.
 
 ---
 
-## 🏆 Pathway 1: Render (Recommended · 100% Free · No Credit Card)
+## 🏆 Pathway 1: GitHub Pages (Recommended · 100% Free Forever)
 
-[Render](https://render.com) provides a generous **free tier web service** with native Python & Node.js runtimes. **No credit card is required** to deploy and run free web services.
+[GitHub Pages](https://pages.github.com) is built directly into GitHub. It is **100% free forever**, **never requires a credit card**, **never sleeps**, and is hosted on GitHub's global edge CDN.
 
-The repository includes a ready-to-use [`render.yaml`](../render.yaml) blueprint.
+### Live Application URL:
+👉 **`https://karansinghverma979.github.io/AI-PathFinder/`**
 
-### Step-by-Step Setup (Takes 2 Minutes):
+### How It Works:
+1. **Sovereign In-Browser Engine**: The web version utilizes the built-in client engine ([`frontend/src/services/browserEngine.js`](../frontend/src/services/browserEngine.js)) which emulates the REST API and SQLite storage directly in the visitor's browser using `localStorage`.
+2. **Instant Performance**: Zero cold-start delay (0 ms). Every tab (Career, Learning, Hiring, Candidates, Jobs, Companies, About) responds immediately.
+3. **Automated CI/CD**: The repository includes [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml) which automatically builds the React 19 frontend and publishes to GitHub Pages whenever changes are pushed to `main`.
 
-1. **Sign Up**:
-   * Navigate to [render.com](https://render.com) and log in with your GitHub account.
-
-2. **Deploy Blueprint**:
-   * Click **New +** (top right) → **Blueprint**.
-   * Connect your repository: `karansinghverma979/AI-PathFinder`.
-   * Render will automatically read `render.yaml`, configure the Python 3.11 environment, compile the React 19 frontend into static assets, install the FastAPI backend, and launch the server.
-   * Click **Apply**.
-
-3. **Access Your Live App**:
-   * Render will build and deploy your app with a permanent HTTPS link:
-   * 👉 `https://ai-pathfinder-xxxx.onrender.com`
-
-*(Note: On the free tier, Render puts inactive services into sleep mode after 15 minutes of inactivity. When a visitor arrives, it automatically wakes up in ~45 seconds. Zero maintenance required).*
+### To Enable on GitHub (One-Time Step):
+1. Go to your repository settings: [github.com/karansinghverma979/AI-PathFinder/settings/pages](https://github.com/karansinghverma979/AI-PathFinder/settings/pages).
+2. Under **Build and deployment** → **Source**, select **GitHub Actions**.
+3. That's it! GitHub Actions handles the rest automatically.
 
 ---
 
-## 🥈 Pathway 2: Hugging Face Spaces (Python / Gradio Runtime)
+## 🥈 Pathway 2: Render Blueprint (`render.yaml`)
 
-> [!NOTE]
-> Hugging Face recently updated their policy requiring a credit card or subscription to launch **Docker** SDK Spaces to prevent cryptocurrency mining abuse. However, the standard **Python / Gradio** runtime remains **100% free with zero card required**.
+If you prefer running the full Python FastAPI server in a cloud container, [Render](https://render.com) provides a free web service tier.
 
-To deploy on Hugging Face without a credit card:
-1. Create a Space on [huggingface.co/new-space](https://huggingface.co/new-space).
-2. Choose SDK: **Gradio** (CPU basic · Free).
-3. Mount the FastAPI application or serve the built React files via Gradio's underlying ASGI server.
+The repository includes a ready-to-use [`render.yaml`](../render.yaml) blueprint:
+* **One-Click Deploy**: [Deploy to Render](https://render.com/deploy?repo=https://github.com/karansinghverma979/AI-PathFinder)
+* **Runtime**: Native Python 3.11 (No Docker required).
+
+*(Note: Free Render web services spin down after 15 minutes of inactivity and take ~45 seconds to wake up on the first visit).*
 
 ---
 
 ## 🐳 Pathway 3: Run Locally with Docker
 
-If you want to run the containerized version on your own machine:
+If you want to run the containerized cloud version locally on any machine:
 
 ```bash
 # 1. Build the unified production container
@@ -59,7 +53,7 @@ Then navigate to `http://localhost:7860` in any browser.
 
 ---
 
-## 💾 How SQLite Persistence & Resetting Works
+## 💾 Storage & Data Isolation
 
-* **Auto-Seeding**: On first boot, the application automatically verifies the database schema. If empty, it seeds sample candidates, companies, and jobs via `seed.py`.
-* **Zero-Maintenance Isolation**: In a public demo environment, ephemeral storage ensures the demo is **self-healing**—if random visitors submit invalid tests or delete records, restarting the container restores the application back to the clean baseline.
+* **Web Demo**: Data is isolated to each visitor's browser `localStorage`, seeded automatically with default candidates, companies, and jobs. Visitors can test creating and deleting entries without affecting other users.
+* **Windows Desktop App**: Data is saved to the local machine at `%LOCALAPPDATA%\AI-PathFinder\Database\candidates.db` for full offline sovereign storage.
